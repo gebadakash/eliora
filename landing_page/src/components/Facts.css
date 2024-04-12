@@ -1,0 +1,8 @@
+.fact {
+    margin: 6rem 0;
+    background: url(../../public/images/blob-top-left.png), url(../../public/images/blob-top-right.png), url(../../public/images/blob-bottom-left.png), url(../../public/images/blob-bottom-right.png), url(../../public/images/blob-center.png);
+    background-position: left 0px top 0px, right 0px top 0px, left 0px bottom 0px, right 0px bottom 0px, center center;
+    background-repeat: no-repeat;
+}
+
+

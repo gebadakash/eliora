@@ -1,0 +1,44 @@
+ .service-item {
+    position: relative;
+    padding: 45px 30px;
+    background: #f6f4f9;
+    overflow: hidden;
+    transition: .5s;
+}
+
+
+.service-item .service-icon {
+    margin: 0 auto 20px auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f6f4f9;
+    background: url(../../public/images/blob-primary.png) center center no-repeat;
+    background-size: contain;
+    transition: .5s;
+}
+
+
+.service-item h5, .service-item p {
+    transition: .5s;
+}
+
+
+.service-item:hover {
+    margin-top: -15px;
+    padding-bottom: 60px;
+    background: #6222cc;
+}
+
+
+.service-item:hover .service-icon {
+    color: #04000b;
+    background: url(../../public/images/blob-secondary.png) center center no-repeat;
+    background-size: contain;
+}
+
+
+
+
