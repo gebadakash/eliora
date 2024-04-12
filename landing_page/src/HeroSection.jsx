@@ -39,8 +39,7 @@ const HeroSection = () => {
             </a>
           </div>
           <a
-            href="https://elioratechno.com/contact"
-            target="_blank"
+            href="#contact"
             className="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block"
           >
             Get Started
@@ -70,7 +69,7 @@ const HeroSection = () => {
                   fontSize: "60px",
                 }}
               >
-                <span style={{ display: "inline-block",right: "180px",position: "relative" }}>₹6999/-</span>
+                <span style={{ display: "inline-block",right: "169px",position: "relative" }}>₹6999/-</span>
               </h1>
               </div>
             </div>
@@ -102,7 +101,8 @@ const HeroSection = () => {
                 Read More
               </a>
               <a
-                href="#contact"
+                href="https://elioratechno.com/contact"
+                target="_blank"
                 className="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight"
               >
                 Contact Us
